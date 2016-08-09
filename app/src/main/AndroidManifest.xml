@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.austinclarke.randomeyes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:id="@+id/home_activity"
+            android:label="@string/app_name"
+            android:name=".aRandomGensHomeActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:id="@+id/strings_activity"
+            android:label="@string/strings_name"
+            android:name=".RStringsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.STRINGS" />
+                <category android:name="android.intent.category.PAGE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:id="@+id/integers_activity"
+            android:label="@string/integers_name"
+            android:name=".RIntegersActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.INTEGERS" />
+                <category android:name="android.intent.category.PAGE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:id="@+id/custom_strings_activity"
+            android:label="@string/custom_strings_name"
+            android:name=".RCustomStringsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.CUSTOMSTRINGS" />
+                <category android:name="android.intent.category.PAGE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:id="@+id/cards_activity"
+            android:label="@string/cards_name"
+            android:name=".RCardsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.CARDS" />
+                <category android:name="android.intent.category.PAGE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:id="@+id/coins_activity"
+            android:label="@string/coins_name"
+            android:name=".RCoinsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.COINS" />
+                <category android:name="android.intent.category.PAGE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:id="@+id/dice_activity"
+            android:label="@string/dice_name"
+            android:name=".RDiceActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DICE" />
+                <category android:name="android.intent.category.PAGE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:id="@+id/float_activity"
+            android:label="@string/dice_name"
+            android:name=".RFloatActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DICE" />
+                <category android:name="android.intent.category.PAGE" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

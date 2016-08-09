@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Random Eyes</string>
+    <string name="strings_name">Strings</string>
+    <string name="integers_name">Integers</string>
+    <string name="dice_name">Dice</string>
+    <string name="coins_name">Coins</string>
+    <string name="cards_name">Cards</string>
+    <string name="custom_strings_name">Custom Strings</string>
+
+    <string name="menu_item_1">Strings</string>
+    <string name="menu_item_2">Custom Strings</string>
+    <string name="menu_item_3">Integers</string>
+    <string name="menu_item_4">Cards</string>
+    <string name="menu_item_5">Coins</string>
+    <string name="menu_item_6">Dice</string>
+    <string name="menu_item_7">Float</string>
+
+    <string name="dice_sides_input">Sides</string>
+
+    <string name="strings_length_input">Length</string>
+    <string name="integers_min_input">Minimum</string>
+    <string name="integers_max_input">Maximum</string>
+    <string name="custom_strings_char_input">Custom Characters</string>
+    <string name="custom_strings_length_input">Length</string>
+
+    <string name="integers_quantity_input">Quantity</string>
+    <string name="strings_quantity_input">Quantity</string>
+    <string name="coins_quantity_input">Quantity</string>
+    <string name="cards_quantity_input">Quantity</string>
+    <string name="custom_strings_quantity_input">Quantity</string>
+
+    <string name="cards_button">Draw</string>
+    <string name="coins_button">Flip</string>
+    <string name="dice_button">Roll</string>
+    <string name="integers_button">Generate</string>
+    <string name="strings_button">Generate</string>
+    <string name="custom_strings_button">Generate</string>
+    <string name="float_name">Float</string>
+
+
+    <string-array name="context_menu">
+        <item>Copy</item>
+    </string-array>
+
+</resources>

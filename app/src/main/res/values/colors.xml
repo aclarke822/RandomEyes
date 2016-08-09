@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0D47A1</color>
+    <color name="primaryDark">#202020</color>
+    <color name="colorAccent">#0D47A1</color>
+    <color name="black">#000000</color>
+
+    <color name="font_color1">#000000</color>
+    <color name="font_color2">#607D8B</color>
+
+
+    <color name="click_color">#96abb6</color>
+
+    <color name="primary_color">#B0BEC5</color>
+    <color name="secondary_color">#CFD8DC</color>
+
+    <color name="accent_color">#90A4AE</color>
+    <color name="toolbar_color">#CFD8DC</color>
+
+    <color name="tertiary">#607D8B</color>
+    <color name="tertiary1">#607D8B</color>
+
+</resources>

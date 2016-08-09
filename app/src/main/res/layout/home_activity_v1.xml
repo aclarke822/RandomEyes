@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/accent_color"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <GridLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/options_strings"
+                android:layout_weight="1"
+                android:background="@color/primary_color"
+                android:drawableLeft="@drawable/strings"
+                android:drawablePadding="@dimen/activity_vertical_margin"
+                android:drawableRight="@drawable/right_arrow"
+                android:gravity="center_vertical"
+                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:text="@string/menu_item_1"
+                android:textColor = "@color/font_color1"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/options_custom_strings"
+                android:layout_weight="1"
+                android:background="@color/secondary_color"
+                android:drawableLeft="@drawable/custom_strings"
+                android:drawablePadding="@dimen/activity_vertical_margin"
+                android:drawableRight="@drawable/right_arrow"
+                android:gravity="center_vertical"
+                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:text="@string/menu_item_2"
+                android:textColor = "@color/font_color1"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/options_integers"
+                android:layout_weight="1"
+                android:background="@color/primary_color"
+                android:drawableLeft="@drawable/integers"
+                android:drawablePadding="@dimen/activity_vertical_margin"
+                android:drawableRight="@drawable/right_arrow"
+                android:gravity="center_vertical"
+                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:text="@string/menu_item_3"
+                android:textColor = "@color/font_color1"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/options_cards"
+                android:layout_weight="1"
+                android:background="@color/secondary_color"
+                android:drawableLeft="@drawable/cards"
+                android:drawablePadding="@dimen/activity_vertical_margin"
+                android:drawableRight="@drawable/right_arrow"
+                android:gravity="center_vertical"
+                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:text="@string/menu_item_4"
+                android:textColor = "@color/font_color1"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/options_coins"
+                android:layout_weight="1"
+                android:background="@color/primary_color"
+                android:drawableLeft="@drawable/coins"
+                android:drawablePadding="@dimen/activity_vertical_margin"
+                android:drawableRight="@drawable/right_arrow"
+                android:gravity="center_vertical"
+                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:text="@string/menu_item_5"
+                android:textColor = "@color/font_color1"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/options_dice"
+                android:layout_weight="1"
+                android:background="@color/secondary_color"
+                android:drawableLeft="@drawable/dice"
+                android:drawablePadding="@dimen/activity_vertical_margin"
+                android:drawableRight="@drawable/right_arrow"
+                android:gravity="center_vertical"
+
+                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:text="@string/menu_item_6"
+                android:textColor = "@color/font_color1"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/options_float"
+                android:layout_weight="1"
+                android:background="@color/primary_color"
+                android:drawableLeft="@drawable/floats"
+                android:drawablePadding="@dimen/activity_vertical_margin"
+                android:drawableRight="@drawable/right_arrow"
+                android:gravity="center_vertical"
+
+                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:text="@string/menu_item_7"
+                android:textColor = "@color/font_color1"
+                android:textSize="24sp"/>
+
+        </GridLayout>
+    </ScrollView>
+
+</LinearLayout>
